@@ -423,7 +423,7 @@ select:hover {
 
   /* partie  admin */
   .addUserBlock{
-   width: 100vw;
+   width: 95vw;
   }
   .registerUsers{
     display: flex;
