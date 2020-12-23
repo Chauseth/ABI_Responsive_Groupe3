@@ -263,7 +263,7 @@ form > ul > li {
 }
 .ButtonRH {
   font-size: 20px;
-  width: 400px;
+  width: 100%;
   margin-top: 1.1em;
   border-radius: 10px;
   background-color: rgb(218, 211, 211);
@@ -365,35 +365,35 @@ select:hover {
   cursor: pointer;
 }
 /* media query gestion de projet */
-@media screen and (max-width : 1024px){
-  .communs{
+@media screen and (max-width: 1024px) {
+  .communs {
     width: 100%;
   }
-  #homeGP{
+  #homeGP {
     display: none;
   }
-  #liensGP{
+  #liensGP {
     list-style-type: disc;
     font-size: small;
   }
-  #liensGP > li > a{
+  #liensGP > li > a {
     color: rgba(16, 100, 184, 0.551);
     font-weight: bold;
   }
-  #liensGP > li > a:hover{
+  #liensGP > li > a:hover {
     color: rgb(220, 224, 230);
   }
 }
 /* media query page d'accueil */
-@media screen and (max-width : 1024px){
-  nav{
+@media screen and (max-width: 1024px) {
+  nav {
     display: block;
   }
-  #titleHome{
+  #titleHome {
     display: none;
   }
-  #head{
-   display: flex;
+  #head {
+    display: flex;
     justify-content: center;
   }
   #menu {
@@ -414,7 +414,7 @@ select:hover {
   #menu a {
     color: rgb(241, 230, 230);
     position: relative;
-   bottom: 30px;
+    bottom: 30px;
     transition: 600ms;
   }
   #menu img {
@@ -425,16 +425,15 @@ select:hover {
     cursor: pointer;
   }
   #menu a:focus {
-   background-color: rgb(27, 23, 30);
-   
+    background-color: rgb(27, 23, 30);
   }
-  img:hover a:focus { 
-  left: 0;
+  img:hover a:focus {
+    left: 0;
   }
   .loginForm {
     margin-top: 50%;
   }
-  .geo > img{
+  .geo > img {
     display: none;
   }
 }
