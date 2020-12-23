@@ -378,8 +378,8 @@ select:hover {
   }
   #menu {
     position: fixed;
-    right: -19em;
-    top: 20%;
+    right: -18em;
+    top: 3em;
     width: 16em;
     background: rgba(24, 18, 30, 0.7);
     color: rgb(247, 240, 240);
