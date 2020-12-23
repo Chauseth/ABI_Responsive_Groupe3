@@ -1,0 +1,81 @@
+@media all and (min-width: 320px) and (max-width: 600px) {
+  #bloc1 {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border-right: none;
+    border-left: none;
+  }
+  #linkRH {
+    width: auto;
+    height: auto;
+  }
+  .buttonRH {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sections {
+    flex-direction: column;
+    display: flex;
+    margin: 40px 20px 40px 20px;
+    padding: 0;
+  }
+  article.communs {
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  #title {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #buttonDis {
+    margin-right: 0px;
+  }
+  .geo {
+    display: none;
+  }
+  #logo {
+    height: 5em;
+    width: 5em;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 1024px) {
+  #bloc1 {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border-right: none;
+    border-left: none;
+  }
+  #linkRH {
+    width: auto;
+    height: auto;
+  }
+  .buttonRH {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sections {
+    flex-direction: column;
+    display: flex;
+    margin: 60px 20px 40px 20px;
+    padding: 0;
+  }
+  article.communs {
+    margin-bottom: 10px;
+  }
+  #title {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  #buttonDis {
+    margin-right: 0px;
+  }
+}
