@@ -443,20 +443,18 @@ select:hover {
 
   /* partie  admin */
   .addUserBlock{
-    margin: 0px
+   width: 100vw;
   }
   .registerUsers{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
   }
   .formRegisterUsers {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   overflow-x: scroll;
-  
   }
   .sections{
     flex-direction: column;
