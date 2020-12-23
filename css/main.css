@@ -440,7 +440,28 @@ select:hover {
   .geo > img {
     display: none;
   }
+
+  /* partie  admin */
+  .addUserBlock{
+    margin: 0px
+  }
+  .registerUsers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .formRegisterUsers {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: scroll;
+  
+  }
   .sections{
-  margin: 0px;
+    flex-direction: column;
+    display: flex;
+    margin: 100px 0px 100px 0px;
+    padding: 0;
   }
 }
