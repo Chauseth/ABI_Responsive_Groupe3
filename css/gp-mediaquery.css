@@ -1,10 +1,10 @@
-
 /* écran */
 @media screen and (max-width: 1160px) {
-    .sections{
+    .sections {
         display: flex;
         flex-direction: column;
     }
+
     #menu {
         /* position: relative; */
         position: fixed;
@@ -19,14 +19,13 @@
         border-radius: 0.5em;
         transition: 700ms;
     }
-    .communs{
+
+    .communs {
         margin-bottom: 5%;
     }
-    
+
 
 }
-
-
 
 /* tablette */
 @media screen and (max-width: 767px) {
@@ -34,6 +33,7 @@
         /* display: none; */
         font-size: 1.9em;
     }
+
     #menu {
         /* position: relative; */
         position: fixed;
@@ -48,7 +48,7 @@
         border-radius: 0.5em;
         transition: 700ms;
     }
-    
+
 }
 
 
@@ -75,16 +75,9 @@
         transition: 700ms;
     }
 
-    /* .communs {
-        /* background-color: red; 
-    } */
-
     #logo {
-        display: none;
-        /* position: fixed;
-        top: 0;
-        margin-left: 50%;
-        margin-right: 50%;
-        size: 10%; */
+        /* display: none; */
+        height: 5em;
+        width: 5em;
     }
 }
