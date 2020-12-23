@@ -430,10 +430,10 @@ select:hover {
   img:hover a:focus {
     left: 0;
   }
-  .login{
+  .login > {
     width: 100%;
   }
-  .loginForm {
+  .loginForm > form {
     margin-top: 50%;
     width: 100%;
   }
@@ -441,7 +441,6 @@ select:hover {
     display: none;
   }
   .sections{
-    width: 100%;
+  margin: 0px;
   }
-  
 }
