@@ -364,32 +364,6 @@ select:hover {
   color: white;
   cursor: pointer;
 }
-/* media query gestion de projet */
-@media screen and (max-width: 1024px) {
-  .communs {
-    width: 100%;
-  }
-
-  #menu {
-    top: 50px;
-    z-index: 1;
-  }
-  
-  #homeGP {
-    display: none;
-  }
-  #liensGP {
-    list-style-type: disc;
-    font-size: small;
-  }
-  #liensGP > li > a {
-    color: rgba(16, 100, 184, 0.551);
-    font-weight: bold;
-  }
-  #liensGP > li > a:hover {
-    color: rgb(220, 224, 230);
-  }
-}
 /* media query page d'accueil */
 @media (max-width: 575.98px) {
   nav {
