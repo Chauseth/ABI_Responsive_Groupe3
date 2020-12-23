@@ -20,7 +20,7 @@
   .sections {
     flex-direction: column;
     display: flex;
-    margin: 40px 20px 40px 20px;
+    margin: 60px 0px 40px 0px;
     padding: 0;
   }
   article.communs {
@@ -43,7 +43,7 @@
   }
 }
 
-@media all and (min-width: 577px) and (max-width: 768px) {
+@media all and (min-width: 577px) and (max-width: 992px) {
   #bloc1 {
     width: auto;
     height: auto;
@@ -65,7 +65,7 @@
   .sections {
     flex-direction: column;
     display: flex;
-    margin: 60px 20px 40px 20px;
+    margin: 60px 0px 40px 0px;
     padding: 0;
   }
   article.communs {

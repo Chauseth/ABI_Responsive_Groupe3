@@ -369,6 +369,12 @@ select:hover {
   .communs {
     width: 100%;
   }
+
+  #menu {
+    top: 50px;
+    z-index: 1;
+  }
+  
   #homeGP {
     display: none;
   }
