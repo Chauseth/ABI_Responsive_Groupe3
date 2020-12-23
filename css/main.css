@@ -431,10 +431,17 @@ select:hover {
   img:hover a:focus { 
   left: 0;
   }
+  .login{
+    width: 100%;
+  }
   .loginForm {
     margin-top: 50%;
+    width: 100%;
   }
   .geo > img{
     display: none;
+  }
+  .sections{
+    width: 100%;
   }
 }
