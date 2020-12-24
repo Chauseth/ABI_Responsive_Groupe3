@@ -1,61 +1,81 @@
-@media (max-width: 575.98px) { 
-
-  .wrapper {
+@media all and (max-width: 576px) {
+  #bloc1 {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border-right: none;
+    border-left: none;
+  }
+  #linkRH {
+    width: auto;
+    height: auto;
+  }
+  .buttonRH {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
   }
-
-  input[type=text], input[type=email], input[type=number] {
-    padding: 5px;
-  }
-
-  .communs {
-    padding: 0;
-    border-radius: 0;
-  }
-
-  .wrapper section {
-    display: flex;
-    flex-direction: column;
-  }
-
   .sections {
-    margin: 50px 0;
-    padding: 0;
-    min-width: 300px;
-  }
-
-  h2 {
-    font-size: 1.3em;
-  }
-  
-  #bloc1 form {
+    flex-direction: column;
     display: flex;
-    flex-flow: column;
+    margin: 60px 0px 40px 0px;
+    padding: 0;
   }
-  
-  #searchClient {
-    align-self: center;
-    width: 50%;
-    height: 50px;
+  article.communs {
+    margin-bottom: 10px;
+    padding: 0;
   }
-
-  select {
-    height: 30px;
+  #title {
+    font-size: 1em;
+    text-align: center;
   }
-
-  #postalCode {
-    margin-left: 0;
+  #buttonDis {
+    margin-right: 0px;
   }
-  #city {
-    margin-left: 0;
+  .geo {
+    display: none;
   }
-
-  #validButton {
-    height: 50px;
-    width: 50%;
+  #logo {
+    height: 5em;
+    width: 5em;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) { }
+@media all and (min-width: 577px) and (max-width: 992px) {
+  #bloc1 {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border-right: none;
+    border-left: none;
+  }
+  #linkRH {
+    width: auto;
+    height: auto;
+  }
+  .buttonRH {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sections {
+    flex-direction: column;
+    display: flex;
+    margin: 60px 0px 40px 0px;
+    padding: 0;
+  }
+  article.communs {
+    margin-bottom: 10px;
+  }
+  #title {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  #buttonDis {
+    margin-right: 0px;
+  }
+}
