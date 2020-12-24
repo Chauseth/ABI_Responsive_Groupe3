@@ -1,81 +1,98 @@
-@media all and (max-width: 576px) {
-  #bloc1 {
-    width: auto;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    border-right: none;
-    border-left: none;
-  }
-  #linkRH {
-    width: auto;
-    height: auto;
-  }
-  .buttonRH {
+#bloc1 {
+  width: 40%;
+}
+
+#bloc2 {
+  width: 50%;
+}
+
+@media (max-width: 575.98px) { 
+
+  .wrapper {
     width: 100%;
-    height: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .sections {
-    flex-direction: column;
     display: flex;
-    margin: 60px 0px 40px 0px;
+    flex-direction: column;
+  }
+
+  #bloc1, #bloc2 {
+    width: 100%;
+  }
+
+  input[type=text], input[type=email], input[type=number] {
+    padding: 5px;
+  }
+
+  .communs {
     padding: 0;
+    border-radius: 0;
   }
-  article.communs {
-    margin-bottom: 10px;
+
+  .wrapper section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sections {
+    margin: 50px 0;
     padding: 0;
+    min-width: 300px;
+    border-radius: 0px;
   }
-  #title {
-    font-size: 1em;
-    text-align: center;
+
+  h2 {
+    font-size: 1.3em;
   }
-  #buttonDis {
-    margin-right: 0px;
+  
+  #bloc1 form {
+    display: flex;
+    flex-flow: column;
   }
-  .geo {
-    display: none;
+  
+  #searchClient {
+    align-self: center;
+    width: 50%;
+    height: 50px;
   }
-  #logo {
-    height: 5em;
-    width: 5em;
+
+  select {
+    height: 30px;
+  }
+
+  #postalCode {
+    margin-left: 0;
+  }
+  #city {
+    margin-left: 0;
+  }
+
+  #clientAddress{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #clientAddress input {
+    margin-top: 10px;
+  }
+
+  #validButton {
+    height: 50px;
+    width: 50%;
   }
 }
 
-@media all and (min-width: 577px) and (max-width: 992px) {
-  #bloc1 {
-    width: auto;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    border-right: none;
-    border-left: none;
-  }
-  #linkRH {
-    width: auto;
-    height: auto;
-  }
-  .buttonRH {
-    width: 100%;
-    height: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+@media (min-width: 576px) and (max-width: 991.98px) {
+
   .sections {
-    flex-direction: column;
-    display: flex;
-    margin: 60px 0px 40px 0px;
-    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
   }
-  article.communs {
-    margin-bottom: 10px;
+
+  #bloc1 {
+    width: 40%;
   }
-  #title {
-    font-size: 2.5em;
-    text-align: center;
+
+  #bloc2 {
+    width: 50%;
   }
-  #buttonDis {
-    margin-right: 0px;
-  }
-}
+  
+ }
